@@ -1,2 +1,8 @@
 # recline-to-vega-spec
-Transforms recline graph specifications to vera specifcations
+Simple function that transforms recline graph specifications to vega graph specifcations
+
+To ran tests:
+
+```
+$ mocha test
+```
