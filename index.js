@@ -1,6 +1,5 @@
 module.exports = function reclineToVegaSpec(reclineSpec){
     
-    var url;  // how to get path to raw data on github?
     var type = reclineSpec.graphType;
     var xColumn = reclineSpec.group;
     var yColumn = reclineSpec.series[0];
