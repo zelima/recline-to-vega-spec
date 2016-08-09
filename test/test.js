@@ -1,5 +1,5 @@
 var assert = require('assert');
-var transform = require('../scripts/transform');
+var transform = require('../index');
 var recSpec = {"graphType": "lines","group": "Date","series": ["Price"]};
 
 describe('VegaSpec', function() {
